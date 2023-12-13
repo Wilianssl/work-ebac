@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Bakery - A sua melhor padaria</title>
+    <link rel="shortcut icon" href="pictures/cards/favicon-pao.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        .carousel-item img {
+            height: 550px;
+            object-fit: cover;
+        }
+
+        body {
+            background-color: #fbf9f9;
+        }
+
+        .card {
+            background-color: #e7e7e7;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #ff7713; 
+            text-align: center;  
+            padding: 20px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+   
+    <main>
+        <nav class="navbar navbar-expand-lg mb-3">
+            <div class="container">
+              <h1>Wellness Bakery</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre Nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#card">Cardápio</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section class="mb-4">
+            <div class="container">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="pictures/img1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pictures/img2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pictures/img3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+          </section>
+          <section class="container apresentacao mb-5" id="sobre">
+            <h2 class="mb-3">Apresentação</h2>
+            <p>Bem-vindos à Wallness Bakery, o local onde a tradição da panificação se une ao compromisso com o seu bem-estar. Aqui, cada produto é cuidadosamente elaborado para oferecer não apenas uma explosão de sabores autênticos, mas também uma experiência que valoriza a qualidade dos ingredientes. Desde os pães artesanais até os irresistíveis doces, na Wallness Bakery, priorizamos a excelência e a variedade para atender aos mais diversos paladares.</p>
+            <p>Na Wallness Bakery, entendemos a importância de uma alimentação equilibrada. Por isso, além de proporcionar indulgências deliciosas, também nos comprometemos com a sua saúde. Nossos produtos incluem opções saudáveis, como pães integrais, sem glúten e com baixo teor de açúcar, permitindo que você desfrute do prazer da boa comida sem comprometer o seu estilo de vida saudável. Descubra na Wallness Bakery um universo de sabores que cuida do seu paladar e da sua saúde.</p>
+          </section>
+          <section class="container mb-5" id="card">
+              <!-- algumas funcionalidades ainda não estão funcionado!  -->
+            <h2 class="mb-3">Nosso Cardápio</h2>
+            
+            <div class="row gap-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="pictures/cards/card1.avif" class="card-img-top" alt="bolo de laranja com calda de chocolate">
+                    <div class="card-body">
+                      <h5 class="card-title">Bolo de Laranja</h5>
+                      <p>R$ 10,00</p>
+                      <p class="card-text">Delicioso bolo de laranja, leve e fofinho, coberto por uma irresistível calda de chocolate que derrete na boca, proporcionando uma experiência única de sabores.</p>
+                      <a href="#" class="btn btn-primary">Adicionar +</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="pictures/cards/card2.jpg" class="card-img-top" alt="pão francês">
+                    <div class="card-body">
+                      <h5 class="card-title">Pão Francês</h5>
+                      <p>R$ 10,00</p>
+                      <p class="card-text">
+                        Pão francês crocante por fora, macio por dentro, com aroma irresistível, perfeito para acompanhar seus momentos à mesa com simplicidade e sabor autêntico.</p>
+                      <a href="#" class="btn btn-primary">Adicionar +</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="pictures/cards/card3.webp" class="card-img-top" alt="pão doce">
+                    <div class="card-body">
+                      <h5 class="card-title">Pão Doce</h5>
+                      <p>R$ 10,00</p>
+                      <p class="card-text">
+                        Pão doce recém-saído do forno, repleto de aromas envolventes de canela e baunilha, sua massa macia e delicadamente açucarada proporciona uma experiência indulgente a cada mordida.</p>
+                      <a href="#" class="btn btn-primary">Adicionar +</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="pictures/cards/card4.webp" class="card-img-top" alt="pão de queijo">
+                    <div class="card-body">
+                      <h5 class="card-title">Pão de Queijo</h5>
+                      <p>R$ 10,00</p>
+                      <p class="card-text">
+                        Pão de queijo artesanal, com casquinha crocante e interior macio, revelando o sabor irresistível do queijo derretido em cada pedaço, uma explosão de delícias na culinária brasileira.</p>
+                      <a href="#" class="btn btn-primary">Adicionar +</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="pictures/cards/card5.jpg" class="card-img-top" alt="pão doce de chocolate">
+                    <div class="card-body">
+                      <h5 class="card-title">Pão de Doce de Chocolate</h5>
+                      <p>R$ 10,00</p>
+                      <p class="card-text">
+                        Pão doce de chocolate, uma tentação irresistível que combina a maciez do pão com a indulgência do chocolate, proporcionando uma experiência decadente e reconfortante em cada pedaço.</p>
+                      <a href="#" class="btn btn-primary">Adicionar +</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="pictures/cards/card6.jpg" class="card-img-top" alt="rosquinhas doces">
+                    <div class="card-body">
+                      <h5 class="card-title">Rosquinhas Doces</h5>
+                      <p>R$ 10,00</p>
+                      <p class="card-text">
+                        Rosquinha doce perfeitamente fofa, envolta em uma camada de açúcar delicadamente caramelizado, oferecendo uma explosão de sabor irresistível a cada mordida, uma verdadeira indulgência para os apreciadores de doces.</p>
+                      <a href="#" class="btn btn-primary">Adicionar +</a>
+                    </div>
+                  </div>
+            </div>
+          </section>
+    </main>
+    <footer>
+        <p>Site criado por Wilian - 2023</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
